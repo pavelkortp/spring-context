@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context"
+       xmlns:context="http://www.springframework.org/schema/context">
+
+    <context:annotation-config/>
+    <bean id="pipelineSystem" class="org.pavelkortp.spring.context.city.PipelineSystem"/>
+    <bean id="electricitySystem" class="org.pavelkortp.spring.context.city.ElectricitySystem"/>
+    <bean id="industrialDistrict" class="org.pavelkortp.spring.context.city.IndustrialDistrict"/>
+    <bean id="city" class="org.pavelkortp.spring.context.city.City"/>
+
+</beans>
